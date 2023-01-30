@@ -1,0 +1,29 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+#contenedor{
+    display:grid;
+    place-items: center;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(6,auto);
+    grid-template-areas:
+
+    "cabecera"
+    "principal"
+    "productos"
+    "videos"
+    "formulario"
+    "pie"
+
+    ;
+
+    width: 100%;
+    height: 100vh;
+
+}
