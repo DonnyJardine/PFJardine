@@ -45,3 +45,11 @@ h1{
     font-size: c.$tamaño-letra;
     font-family: c.$tipo-letra-h1;
 }
+
+h2{
+   @extend h1;
+}
+
+body{
+    background-color: map-get(c.$colores,"fondo-principal");
+}

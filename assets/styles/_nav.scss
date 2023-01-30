@@ -1,2 +1,45 @@
 @use '_commons' as c;
 
+header{ 
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: flex-start;
+    background-color: map-get(c.$colores,"fondo-titular");
+    width: c.$header-ancho;
+
+}
+
+.menu ul{
+    font-size: c.$tamaño-letra-menu;
+    list-style: none;
+    text-decoration: none;
+}
+.menu ul li{
+    color: map-get(c.$colores,"titulo");
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+ }
+
+ a:link { text-decoration: none;
+ }
+
+ .menu ul li a{
+    color: map-get(c.$colores,"titulo");
+}
+
+.menu ul li a:hover{
+    color: map-get(c.$colores,"hover");
+}
+
+.menu ul ul{
+    position: absolute;
+    display: none;
+}
+
+.menu ul li:hover ul{
+    display: block;
+}
