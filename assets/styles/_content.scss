@@ -47,9 +47,60 @@ h1{
 }
 
 h2{
-   @extend h1;
+   color: map-get(c.$colores,"texto-1");
+   background-color: map-get(c.$colores,"tabla");
+   width: c.$tamaño-titulo;
+   font-size: c.$tamaño-letra;
+   font-family: c.$tipo-letra-h1;
 }
 
 body{
-    background-color: map-get(c.$colores,"fondo-principal");
+    background: map-get(c.$colores,"background");
+    
+}
+
+p{
+color: map-get(c.$colores,"texto");
+}
+
+table{
+    width: c.$grid-ancho;
+}
+
+.tabla-1{
+    background-color: map-get(c.$colores,"hover");
+    color: map-get(c.$colores,"texto-1");
+}
+
+.tabla-2{
+    background-color: map-get(c.$colores,"tabla"); 
+    color: map-get(c.$colores,"texto-1");  
+}
+
+.tabla-3{
+    background-color: map-get(c.$colores,"tabla-1"); 
+    color: map-get(c.$colores,"texto");  
+}
+
+.tabla-4{
+    @extend .tabla-2;
+}
+
+.tabla-5{
+    @extend .tabla-3;
+}
+
+label{
+    color: map-get(c.$colores,"texto");
+    display:flex;
+    justify-content: space-between;
+}
+
+form{
+    background-color: map-get(c.$colores,"hover");
+}
+
+footer{
+    display:flex;
+    justify-content: center;
 }

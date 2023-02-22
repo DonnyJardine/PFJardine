@@ -1,21 +1,27 @@
 $colores: (titulo:#90afca,
-fondo-titular:#336b87,
-fondo-principal: rgb(161, 174, 235),
-hover: bisque,
-fondo-texto: #2E7E56,
-texto: bisque)
+fondo-titular:#0d6efd,
+fondo-principal: rgb(2,0,36),
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,47,121,1) 54%, rgba(0,212,255,1) 100%),
+hover: #555555,
+texto: bisque,
+texto-1: black,
+texto-h2: black,
+tabla:#C0C0C0,
+tabla-1: #87907D)
 
 ;
 
 $tamaño-titulo: 100%;
 $tamaño-letra: 50px;  
 $tipo-letra-h1: tahoma;
+$tipo-letra-h2: tahoma;
 $header-ancho: 100%;
 $grid-tamaño-principal: 100%;
 $tamaño-letra-texto: 18px;
 $grid-ancho: 100%;
 $grid-alto: 100%;
 $tamaño-letra-menu: 20px;
+$borde-tabla: collaspse;
 
 
 
