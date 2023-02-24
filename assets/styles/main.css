@@ -16,6 +16,7 @@
 
 #cabecera {
   grid-area: cabecera;
+  width: 100%;
 }
 
 .slide-bottom {
@@ -43,6 +44,8 @@ h2 {
   width: 100%;
   font-size: 50px;
   font-family: tahoma;
+  display: flex;
+  justify-content: center;
 }
 
 body {

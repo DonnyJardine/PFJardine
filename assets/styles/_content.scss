@@ -31,7 +31,7 @@
 
 #cabecera{
     grid-area: cabecera;
-
+    width: c.$grid-ancho;
 }
 
 .slide-bottom{-webkit-animation:slide-bottom 1s cubic-bezier(.25,.46,.45,.94) both;animation:slide-bottom 1s cubic-bezier(.25,.46,.45,.94) both}
@@ -52,6 +52,8 @@ h2{
    width: c.$tamaño-titulo;
    font-size: c.$tamaño-letra;
    font-family: c.$tipo-letra-h1;
+   display:flex;
+   justify-content: center;
 }
 
 body{
